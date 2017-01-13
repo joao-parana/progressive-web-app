@@ -1,6 +1,9 @@
 Building a Progressive Web App from scratch in Polymer
 ====
 
+**Please, see [work/docs/README.md](https://github.com/joao-parana/progressive-web-app/blob/master/work/docs/README.md)**
+
+
 In this codelab, you’ll build a Progressive Web App in Polymer that will let users watch videos from the Chrome developer channel. You will learn how to set up the pages, layout, routes, and an infinite list.
 
 ## Progressive Web Apps

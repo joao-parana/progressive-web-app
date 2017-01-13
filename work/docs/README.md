@@ -76,9 +76,10 @@ bower install  --save PolymerElements/app-layout#^0.10.0 PolymerElements/app-rou
 
 Copying the seed element
 
-Open src/show-app/show-app.html and paste the content from the seed element pwa-from-scratch-master/resouces/show-app.html or run:
-
+```bash
 cp ../resources/show-app.html src/show-app/show-app.html
+```
+
 The seed element contains the CSS, so we don't need to worry about writing all the CSS rules for the show-app element.
 
 
@@ -88,9 +89,7 @@ The seed element contains the CSS, so we don't need to worry about writing all t
 
 
 
-```bash
 
-```
 
 ```bash
 
