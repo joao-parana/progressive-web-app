@@ -1,7 +1,7 @@
 {
-  "name": "Chrome Developer Channel",
-  "short_name": "Chrome Developer Channel",
-  "description": "Shows for web developers",
+  "name": "first-pwa",
+  "short_name": "first-pwa",
+  "description": "My First Progressive Web App",
   "start_url": "/",
   "display": "standalone"
 }
