@@ -1,6 +1,6 @@
 {
-  "name": "chrome-developer-channel",
-  "description": "Shows for web developers",
+  "name": "first-pwa",
+  "description": "My First Progressive Web App",
   "main": "index.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",

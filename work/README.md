@@ -1,6 +1,6 @@
-# \<Chrome Developer Channel\>
+# \<first-pwa\>
 
-Shows for web developers
+My First Progressive Web App
 
 ## Install the Polymer-CLI
 

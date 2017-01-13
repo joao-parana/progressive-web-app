@@ -1,8 +1,9 @@
-# progressive-web-app/work
+# progressive-web-app
 
 Instale o **bower** e o **polymer-cli** usando `npm install -g` e depois faça: 
 
 ```bash
+cd work
 polymer init
 ```
 
@@ -27,13 +28,15 @@ ls -lat
 
 > Entrypoint: When you generate a project using the Polymer CLI, the new project contains an entrypoint index.html, which imports and instantiates the app shell
 
-O arquivo service-worker.js é gerado automaticamente.
+O arquivo service-worker.js é gerado automaticamente quando implantamos a aplicação em produção no ultimo passo.
+
+Por hora fazemos:
 
 ```bash
 touch service-worker.js
-subl -a service-worker.js
-subl -a index.html
+subl .
 ```
+
 Edite o index.html colocando o código abaixo no `<head>`
 
 ```javascript
@@ -54,8 +57,8 @@ Adicione um estilo
 <style>
   body {
     margin: 0;
-    background-color: black;
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(50, 50, 50) 50%, rgb(0, 0, 0) 100%);
+    background-color: rgb(255, 195, 0);
+    background-image: linear-gradient(to bottom, rgb(255, 195, 0) 0%, rgb(236, 132, 14) 50%, rgb(255, 195, 0) 100%);
     background-attachment: fixed;
     font-family: 'Roboto', 'Noto', sans-serif;
   }
