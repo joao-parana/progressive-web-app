@@ -62,8 +62,10 @@ Adicione um estilo
 </style>
 ```
 
+Numa **outra bash shell** faça:
 
 ```bash
+cd work
 polymer serve -p 3000 --open
 ```
 
@@ -88,13 +90,20 @@ The seed element contains the CSS, so we don't need to worry about writing all t
 ```
 
 
-
-
+Abra show-app.html no editor
 
 ```bash
-
+subl -a src/show-app/show-app.html
 ```
 
-```bash
+Adicione os imports
 
+```html
+<link rel="import" href="../../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="../../bower_components/app-route/app-location.html">
+<link rel="import" href="../../bower_components/app-route/app-route.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 ```
